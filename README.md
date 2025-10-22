@@ -1,6 +1,6 @@
 # Knowledge Graph Construction with Personality Modeling
 
-This project implements a **Knowledge Graph (KG) construction pipeline** with a focus on **personality modeling**. It uses **Large Language Models (LLMs)**, NLP techniques, and graph analysis to extract entities, relationships, and personality traits from text. The system generates structured knowledge representations and visualizations while evaluating graph quality, completeness, and consistency.
+This project implements a **Knowledge Graph (KG) construction pipeline** with a focus on personality modeling. It uses **Large Language Models (LLMs), specifically Google's Gemma 3 12B Model**, **NLP techniques with spaCy's English language processing pipeline**, and graph analysis to extract entities, relationships, and personality traits from text. The system generates structured knowledge representations and visualizations while evaluating graph quality, completeness, and consistency.
 
 ---
 
