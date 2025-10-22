@@ -14,9 +14,9 @@ This project implements a **Knowledge Graph (KG) construction pipeline** with a 
   - [1. Synthetic Data Generator](#1-synthetic-data-generator)  
   - [2. Entity Extraction](#2-entity-extraction)  
   - [3. Relationship Extraction](#3-relationship-extraction)  
-  - [4. Personality Inference](#4-personality-inference)  
+  - [4. Personality Inference With Report Summary](#4-personality-inference)  
   - [5. Knowledge Graph Construction](#5-knowledge-graph-construction)  
-  - [6. Graph Visualization](#6-graph-visualization)  
+  - [6. Graph Visualization With Examples](#6-graph-visualization)  
   - [7. Evaluation Metrics](#7-evaluation-metrics)  
 - [Edge Types](#edge-types)  
 - [Outputs](#outputs)  
@@ -139,9 +139,10 @@ Below is the report generated from the narrative document:
 - Edge types: `affiliated_with`, `co_occurs`, `works_with`  
 - Supports saving as PNG for reporting  
 
-Below is the knowledge graph generated from the narrative document:
+Below are the knowledge graphs generated from the narratives:
 
 ![Narrative Knowledge Graph](output_png_json_txt/kg_business.png)
+![Narrative Knowledge Graph](output_png_json_txt/kg_social.png)
 
 ### 7. Evaluation Metrics
 
