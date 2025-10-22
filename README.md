@@ -111,7 +111,7 @@ Generates three types of documents for testing:
 - Uses **LLM-based extraction** (Gemma 3)  
 - Two-pass approach:
   1. LLM extracts explicit relationships  
-  2. Optional densification via **co-occurrence edges**  
+  2. Densification via **co-occurrence edges**  
 
 - Relationship attributes:
   - `source`, `target`, `relation_type`, `confidence`  
@@ -121,6 +121,10 @@ Generates three types of documents for testing:
 - Infers **Big Five traits** for each person entity  
 - Lists **behaviors** and **emotional states**  
 - Uses LLM prompts for contextual understanding  
+
+Below is the report generated from the narrative document:
+
+![Report Evaluation](output_png_json_txt/evaluation_business.txt)
 
 ### 5. Knowledge Graph Construction
 
