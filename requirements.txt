@@ -1,0 +1,4 @@
+networkx==3.5
+matplotlib==3.10.7
+ollama
+spacy

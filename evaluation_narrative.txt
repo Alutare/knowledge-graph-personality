@@ -1,0 +1,84 @@
+
+========================================================================
+                    KNOWLEDGE GRAPH EVALUATION REPORT
+========================================================================
+Generated: 2025-10-22 21:24:08
+
+1. GRAPH STATISTICS
+------------------------------------------------------------------------
+Total Nodes:              10
+Total Edges:              29
+Person Entities:          5
+Organization Entities:    2
+Location Entities:        2
+Graph Density:            0.322
+Average Degree:           5.80
+
+2. COMPLETENESS METRICS
+------------------------------------------------------------------------
+Personality Coverage:     100.00%
+Entities Extracted:       10
+Relationships Extracted:  29
+Overall Score:            100.00%
+
+3. CONSISTENCY METRICS
+------------------------------------------------------------------------
+Consistency Score:        100.00%
+Inconsistencies Found:    0
+
+4. GRAPH QUALITY METRICS
+------------------------------------------------------------------------
+Connected Components:     1
+Connectivity Ratio:       100.00%
+Average Clustering:       0.651
+Graph Density:            0.467
+
+5. PERSONALITY ANALYSIS
+------------------------------------------------------------------------
+
+Sarah Chen:
+  Openness:          0.80
+  Conscientiousness: 0.90
+  Extraversion:      0.85
+  Agreeableness:     0.70
+  Neuroticism:       0.40
+  Behaviors:         proposes unconventional solutions, mentors junior developers, volunteers for committees
+  Emotions:          enthusiastic, calm, defensive
+
+Sarah:
+  Openness:          0.80
+  Conscientiousness: 0.90
+  Extraversion:      0.85
+  Agreeableness:     0.70
+  Neuroticism:       0.35
+  Behaviors:         proposes unconventional solutions, mentors junior developers, organizes workshops
+  Emotions:          enthusiastic, calm, upset
+
+David Martinez:
+  Openness:          0.60
+  Conscientiousness: 0.80
+  Extraversion:      0.40
+  Agreeableness:     0.70
+  Neuroticism:       0.20
+  Behaviors:         observes, appreciates, communicates
+  Emotions:          impressed, respectful, positive
+
+John Smith:
+  Openness:          0.60
+  Conscientiousness: 0.70
+  Extraversion:      0.30
+  Agreeableness:     0.70
+  Neuroticism:       0.40
+  Behaviors:         points out vulnerabilities, collaborates, provides feedback
+  Emotions:          concerned, critical, helpful
+
+John:
+  Openness:          0.60
+  Conscientiousness: 0.70
+  Extraversion:      0.40
+  Agreeableness:     0.70
+  Neuroticism:       0.40
+  Behaviors:         points out errors, collaborates, provides feedback
+  Emotions:          concerned, respectful, professional
+
+========================================================================

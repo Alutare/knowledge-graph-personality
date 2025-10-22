@@ -1,0 +1,93 @@
+
+========================================================================
+                    KNOWLEDGE GRAPH EVALUATION REPORT
+========================================================================
+Generated: 2025-10-22 21:25:31
+
+1. GRAPH STATISTICS
+------------------------------------------------------------------------
+Total Nodes:              13
+Total Edges:              46
+Person Entities:          6
+Organization Entities:    4
+Location Entities:        0
+Graph Density:            0.295
+Average Degree:           7.08
+
+2. COMPLETENESS METRICS
+------------------------------------------------------------------------
+Personality Coverage:     100.00%
+Entities Extracted:       13
+Relationships Extracted:  46
+Overall Score:            100.00%
+
+3. CONSISTENCY METRICS
+------------------------------------------------------------------------
+Consistency Score:        100.00%
+Inconsistencies Found:    0
+
+4. GRAPH QUALITY METRICS
+------------------------------------------------------------------------
+Connected Components:     1
+Connectivity Ratio:       100.00%
+Average Clustering:       0.680
+Graph Density:            0.500
+
+5. PERSONALITY ANALYSIS
+------------------------------------------------------------------------
+
+Jennifer Liu:
+  Openness:          0.80
+  Conscientiousness: 0.40
+  Extraversion:      0.90
+  Agreeableness:     0.40
+  Neuroticism:       0.20
+  Behaviors:         making bold decisions, exuding confidence, inspiring stakeholders
+  Emotions:          confidence, excitement, ambition
+
+Robert Kim:
+  Openness:          0.40
+  Conscientiousness: 0.95
+  Extraversion:      0.30
+  Agreeableness:     0.70
+  Neuroticism:       0.10
+  Behaviors:         analyzing financial projections, reviewing legal documents, demonstrating patience
+  Emotions:          focused, calm, methodical
+
+Robert:
+  Openness:          0.40
+  Conscientiousness: 0.95
+  Extraversion:      0.30
+  Agreeableness:     0.70
+  Neuroticism:       0.10
+  Behaviors:         meticulously reviews documents, conducts financial analysis, demonstrates patience
+  Emotions:          focused, calm, analytical
+
+Jennifer Liu's:
+  Openness:          0.80
+  Conscientiousness: 0.40
+  Extraversion:      0.90
+  Agreeableness:     0.50
+  Neuroticism:       0.40
+  Behaviors:         making bold decisions, exuding confidence, inspiring stakeholders
+  Emotions:          confidence, excitement, ambition
+
+Maria Santos:
+  Openness:          0.60
+  Conscientiousness: 0.80
+  Extraversion:      0.60
+  Agreeableness:     0.90
+  Neuroticism:       0.20
+  Behaviors:         hosting open forums, encouraging transparent communication, active listening
+  Emotions:          compassionate, concerned, understanding
+
+Alex:
+  Openness:          0.60
+  Conscientiousness: 0.90
+  Extraversion:      0.30
+  Agreeableness:     0.50
+  Neuroticism:       0.40
+  Behaviors:         analyzes, raises concerns, performs thorough assessments
+  Emotions:          concern, skepticism, realistic
+
+========================================================================

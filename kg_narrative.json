@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "name": "Sarah Chen",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 1
+      }
+    },
+    {
+      "name": "TechCorp",
+      "entity_type": "ORGANIZATION",
+      "properties": {
+        "mentions": 2
+      }
+    },
+    {
+      "name": "Last month",
+      "entity_type": "OTHER",
+      "properties": {
+        "mentions": 1
+      }
+    },
+    {
+      "name": "Sarah",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 5
+      }
+    },
+    {
+      "name": "David Martinez",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 1
+      }
+    },
+    {
+      "name": "San Francisco",
+      "entity_type": "LOCATION",
+      "properties": {
+        "mentions": 1
+      }
+    },
+    {
+      "name": "John Smith",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 1
+      }
+    },
+    {
+      "name": "John",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 2
+      }
+    },
+    {
+      "name": "the AI Ethics Committee",
+      "entity_type": "ORGANIZATION",
+      "properties": {
+        "mentions": 1
+      }
+    },
+    {
+      "name": "AI",
+      "entity_type": "LOCATION",
+      "properties": {
+        "mentions": 2
+      }
+    }
+  ],
+  "relationships": [],
+  "personalities": {
+    "Sarah Chen": {
+      "openness": 0.8,
+      "conscientiousness": 0.9,
+      "extraversion": 0.85,
+      "agreeableness": 0.7,
+      "neuroticism": 0.4,
+      "behaviors": [
+        "proposes unconventional solutions",
+        "mentors junior developers",
+        "volunteers for committees",
+        "analyzes security vulnerabilities",
+        "organizes workshops"
+      ],
+      "emotional_states": [
+        "enthusiastic",
+        "calm",
+        "defensive",
+        "anxious",
+        "positive"
+      ]
+    },
+    "Sarah": {
+      "openness": 0.8,
+      "conscientiousness": 0.9,
+      "extraversion": 0.85,
+      "agreeableness": 0.7,
+      "neuroticism": 0.35,
+      "behaviors": [
+        "proposes unconventional solutions",
+        "mentors junior developers",
+        "organizes workshops",
+        "plans meticulously",
+        "collaborates to fix issues"
+      ],
+      "emotional_states": [
+        "enthusiastic",
+        "calm",
+        "upset",
+        "defensive",
+        "anxiety"
+      ]
+    },
+    "David Martinez": {
+      "openness": 0.6,
+      "conscientiousness": 0.8,
+      "extraversion": 0.4,
+      "agreeableness": 0.7,
+      "neuroticism": 0.2,
+      "behaviors": [
+        "observes",
+        "appreciates",
+        "communicates",
+        "delegates",
+        "acknowledges"
+      ],
+      "emotional_states": [
+        "impressed",
+        "respectful",
+        "positive",
+        "confident",
+        "supportive"
+      ]
+    },
+    "John Smith": {
+      "openness": 0.6,
+      "conscientiousness": 0.7,
+      "extraversion": 0.3,
+      "agreeableness": 0.7,
+      "neuroticism": 0.4,
+      "behaviors": [
+        "points out vulnerabilities",
+        "collaborates",
+        "provides feedback",
+        "works systematically",
+        "mentors"
+      ],
+      "emotional_states": [
+        "concerned",
+        "critical",
+        "helpful",
+        "professional",
+        "supportive"
+      ]
+    },
+    "John": {
+      "openness": 0.6,
+      "conscientiousness": 0.7,
+      "extraversion": 0.4,
+      "agreeableness": 0.7,
+      "neuroticism": 0.4,
+      "behaviors": [
+        "points out errors",
+        "collaborates",
+        "provides feedback",
+        "offers solutions",
+        "demonstrates technical expertise"
+      ],
+      "emotional_states": [
+        "concerned",
+        "respectful",
+        "professional",
+        "focused",
+        "helpful"
+      ]
+    }
+  }
+}

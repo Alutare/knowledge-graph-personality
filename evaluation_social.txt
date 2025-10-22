@@ -1,0 +1,102 @@
+
+========================================================================
+                    KNOWLEDGE GRAPH EVALUATION REPORT
+========================================================================
+Generated: 2025-10-22 21:26:57
+
+1. GRAPH STATISTICS
+------------------------------------------------------------------------
+Total Nodes:              13
+Total Edges:              33
+Person Entities:          7
+Organization Entities:    3
+Location Entities:        1
+Graph Density:            0.212
+Average Degree:           5.08
+
+2. COMPLETENESS METRICS
+------------------------------------------------------------------------
+Personality Coverage:     100.00%
+Entities Extracted:       13
+Relationships Extracted:  33
+Overall Score:            100.00%
+
+3. CONSISTENCY METRICS
+------------------------------------------------------------------------
+Consistency Score:        85.71%
+Inconsistencies Found:    1
+
+4. GRAPH QUALITY METRICS
+------------------------------------------------------------------------
+Connected Components:     2
+Connectivity Ratio:       84.62%
+Average Clustering:       0.345
+Graph Density:            0.359
+
+5. PERSONALITY ANALYSIS
+------------------------------------------------------------------------
+
+Emma Watson:
+  Openness:          0.60
+  Conscientiousness: 0.70
+  Extraversion:      0.90
+  Agreeableness:     0.80
+  Neuroticism:       0.20
+  Behaviors:         greeting guests warmly, demonstrating enthusiasm, diplomatic conflict resolution
+  Emotions:          enthusiasm, warmth, welcome
+
+Michael Chen:
+  Openness:          0.40
+  Conscientiousness: 0.80
+  Extraversion:      0.20
+  Agreeableness:     0.70
+  Neuroticism:       0.10
+  Behaviors:         listening intently, engaging in quiet conversations, carefully considering perspectives
+  Emotions:          thoughtful, calm, reflective
+
+Patricia Johnson:
+  Openness:          0.80
+  Conscientiousness: 0.50
+  Extraversion:      0.40
+  Agreeableness:     0.70
+  Neuroticism:       0.90
+  Behaviors:         delivering emotionally powerful speeches, discussing personal struggles openly, founding an institute
+  Emotions:          anxiety, empathy, passion
+
+Patricia:
+  Openness:          0.80
+  Conscientiousness: 0.40
+  Extraversion:      0.30
+  Agreeableness:     0.70
+  Neuroticism:       0.70
+  Behaviors:         delivering emotionally powerful speeches, discussing personal struggles openly, founding an institute
+  Emotions:          passion, vulnerability, anxiety
+
+Carlos Rodriguez:
+  Openness:          0.40
+  Conscientiousness: 0.30
+  Extraversion:      0.70
+  Agreeableness:     0.20
+  Neuroticism:       0.60
+  Behaviors:         aggressively outbids, interrupts, prioritizes winning
+  Emotions:          competitiveness, frustration, irritation
+
+Carlos:
+  Openness:          0.40
+  Conscientiousness: 0.30
+  Extraversion:      0.70
+  Agreeableness:     0.20
+  Neuroticism:       0.60
+  Behaviors:         aggressively outbidding, prioritizing winning, resistant to feedback
+  Emotions:          competitive, frustration, defensiveness
+
+Lisa Park's:
+  Openness:          0.90
+  Conscientiousness: 0.30
+  Extraversion:      0.60
+  Agreeableness:     0.70
+  Neuroticism:       0.20
+  Behaviors:         improvises music, acts on intuition, embraces spontaneity
+  Emotions:          joyful, relaxed, creative
+
+========================================================================
