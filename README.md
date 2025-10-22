@@ -135,6 +135,10 @@ Generates three types of documents for testing:
 - Edge types: `affiliated_with`, `co_occurs`, `works_with`  
 - Supports saving as PNG for reporting  
 
+Below is the knowledge graph generated from the narrative document:
+
+![Narrative Knowledge Graph](output_png_json_txt/kg_business.png)
+
 ### 7. Evaluation Metrics
 
 #### **Completeness**
