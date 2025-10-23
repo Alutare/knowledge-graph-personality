@@ -4,179 +4,542 @@
       "name": "Sarah Chen",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 37
+      },
+      "canonical_name": "Sarah Chen"
     },
     {
       "name": "TechCorp",
       "entity_type": "ORGANIZATION",
       "properties": {
-        "mentions": 2
-      }
+        "mentions": 4
+      },
+      "canonical_name": "TechCorp"
     },
     {
       "name": "Last month",
       "entity_type": "OTHER",
       "properties": {
         "mentions": 1
-      }
-    },
-    {
-      "name": "Sarah",
-      "entity_type": "PERSON",
-      "properties": {
-        "mentions": 5
-      }
+      },
+      "canonical_name": "Last month"
     },
     {
       "name": "David Martinez",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 16
+      },
+      "canonical_name": "David Martinez"
+    },
+    {
+      "name": "QA",
+      "entity_type": "ORGANIZATION",
+      "properties": {
+        "mentions": 4
+      },
+      "canonical_name": "QA"
     },
     {
       "name": "San Francisco",
       "entity_type": "LOCATION",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 4
+      },
+      "canonical_name": "San Francisco"
     },
     {
       "name": "John Smith",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 10
+      },
+      "canonical_name": "John Smith"
     },
     {
-      "name": "John",
-      "entity_type": "PERSON",
-      "properties": {
-        "mentions": 2
-      }
-    },
-    {
-      "name": "the AI Ethics Committee",
-      "entity_type": "ORGANIZATION",
-      "properties": {
-        "mentions": 1
-      }
-    },
-    {
-      "name": "AI",
+      "name": "Seattle",
       "entity_type": "LOCATION",
       "properties": {
-        "mentions": 2
-      }
+        "mentions": 1
+      },
+      "canonical_name": "Seattle"
+    },
+    {
+      "name": "Ben Carter",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 8
+      },
+      "canonical_name": "Ben Carter"
+    },
+    {
+      "name": "three",
+      "entity_type": "OTHER",
+      "properties": {
+        "mentions": 4
+      },
+      "canonical_name": "three"
+    },
+    {
+      "name": "AI Ethics Committee",
+      "entity_type": "ORGANIZATION",
+      "properties": {
+        "mentions": 0
+      },
+      "canonical_name": "AI Ethics Committee"
+    },
+    {
+      "name": "Amina Al-Jamil",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 4
+      },
+      "canonical_name": "Amina Al-Jamil"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "source": "Sarah Chen",
+      "target": "TechCorp",
+      "relation": "works_for",
+      "confidence": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "David Martinez",
+      "relation": "reports_to",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "John Smith",
+      "target": "Seattle",
+      "relation": "located_in",
+      "confidence": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "John Smith",
+      "relation": "collaborates_with",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "Ben Carter",
+      "relation": "collaborates_with",
+      "confidence": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "AI Ethics Committee",
+      "relation": "member_of",
+      "confidence": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "AI Ethics Committee",
+      "relation": "leads",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "Amina Al-Jamil",
+      "relation": "collaborates_with",
+      "confidence": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "Amina Al-Jamil",
+      "relation": "reports_to",
+      "confidence": 0.75,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "San Francisco",
+      "relation": "located_in",
+      "confidence": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "TechCorp",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "QA",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "John Smith",
+      "target": "QA",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Ben Carter",
+      "target": "QA",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "TechCorp",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "AI Ethics Committee",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Amina Al-Jamil",
+      "target": "TechCorp",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Amina Al-Jamil",
+      "target": "AI Ethics Committee",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Sarah Chen",
+      "target": "TechCorp",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "QA",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "San Francisco",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "John Smith",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "QA",
+      "target": "San Francisco",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "QA",
+      "target": "John Smith",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "San Francisco",
+      "target": "John Smith",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "San Francisco",
+      "target": "Seattle",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "John Smith",
+      "target": "Seattle",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "San Francisco",
+      "target": "QA",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "San Francisco",
+      "target": "Ben Carter",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "John Smith",
+      "target": "QA",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "John Smith",
+      "target": "Ben Carter",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Seattle",
+      "target": "QA",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Seattle",
+      "target": "Ben Carter",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "QA",
+      "target": "Ben Carter",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "John Smith",
+      "target": "David Martinez",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Ben Carter",
+      "target": "David Martinez",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "John Smith",
+      "target": "TechCorp",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "John Smith",
+      "target": "AI Ethics Committee",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Ben Carter",
+      "target": "TechCorp",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Ben Carter",
+      "target": "AI Ethics Committee",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "TechCorp",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "AI Ethics Committee",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "TechCorp",
+      "target": "AI Ethics Committee",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "David Martinez",
+      "target": "Amina Al-Jamil",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "TechCorp",
+      "target": "Amina Al-Jamil",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "AI Ethics Committee",
+      "target": "Amina Al-Jamil",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "TechCorp",
+      "target": "David Martinez",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Amina Al-Jamil",
+      "target": "San Francisco",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "San Francisco",
+      "target": "Amina Al-Jamil",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    }
+  ],
   "personalities": {
     "Sarah Chen": {
-      "openness": 0.8,
-      "conscientiousness": 0.9,
-      "extraversion": 0.85,
+      "openness": 0.9,
+      "conscientiousness": 0.7,
+      "extraversion": 0.8,
       "agreeableness": 0.7,
-      "neuroticism": 0.4,
+      "neuroticism": 0.3,
       "behaviors": [
-        "proposes unconventional solutions",
-        "mentors junior developers",
-        "volunteers for committees",
-        "analyzes security vulnerabilities",
-        "organizes workshops"
+        "Innovative thinking",
+        "Creative problem-solving",
+        "Embraces new technologies",
+        "Proposes unconventional solutions",
+        "Participates enthusiastically in team meetings"
       ],
       "emotional_states": [
-        "enthusiastic",
-        "calm",
-        "defensive",
-        "anxious",
-        "positive"
-      ]
-    },
-    "Sarah": {
-      "openness": 0.8,
-      "conscientiousness": 0.9,
-      "extraversion": 0.85,
-      "agreeableness": 0.7,
-      "neuroticism": 0.35,
-      "behaviors": [
-        "proposes unconventional solutions",
-        "mentors junior developers",
-        "organizes workshops",
-        "plans meticulously",
-        "collaborates to fix issues"
+        "Enthusiasm",
+        "Curiosity",
+        "Engagement"
       ],
-      "emotional_states": [
-        "enthusiastic",
-        "calm",
-        "upset",
-        "defensive",
-        "anxiety"
-      ]
-    },
-    "David Martinez": {
-      "openness": 0.6,
-      "conscientiousness": 0.8,
-      "extraversion": 0.4,
-      "agreeableness": 0.7,
-      "neuroticism": 0.2,
-      "behaviors": [
-        "observes",
-        "appreciates",
-        "communicates",
-        "delegates",
-        "acknowledges"
-      ],
-      "emotional_states": [
-        "impressed",
-        "respectful",
-        "positive",
-        "confident",
-        "supportive"
-      ]
+      "evidence_count": 1
     },
     "John Smith": {
-      "openness": 0.6,
-      "conscientiousness": 0.7,
+      "openness": 0.4,
+      "conscientiousness": 0.8,
       "extraversion": 0.3,
-      "agreeableness": 0.7,
-      "neuroticism": 0.4,
+      "agreeableness": 0.5,
+      "neuroticism": 0.6,
       "behaviors": [
-        "points out vulnerabilities",
-        "collaborates",
-        "provides feedback",
-        "works systematically",
-        "mentors"
+        "Provides blunt, analytical feedback",
+        "Identifies security vulnerabilities",
+        "Collaborates to resolve issues",
+        "Works remotely"
       ],
       "emotional_states": [
-        "concerned",
-        "critical",
-        "helpful",
-        "professional",
-        "supportive"
-      ]
+        "Defensiveness when receiving criticism",
+        "Analytical and focused",
+        "Potentially low tolerance for emotional reactions"
+      ],
+      "evidence_count": 3
     },
-    "John": {
-      "openness": 0.6,
+    "David Martinez": {
+      "openness": 0.8,
       "conscientiousness": 0.7,
-      "extraversion": 0.4,
+      "extraversion": 0.6,
       "agreeableness": 0.7,
       "neuroticism": 0.4,
       "behaviors": [
-        "points out errors",
-        "collaborates",
-        "provides feedback",
-        "offers solutions",
-        "demonstrates technical expertise"
+        "Manages a QA team",
+        "Chairs the AI Ethics Committee",
+        "Mentors junior developers",
+        "Organizes community workshops",
+        "Praises team members for professionalism"
       ],
       "emotional_states": [
-        "concerned",
-        "respectful",
-        "professional",
-        "focused",
-        "helpful"
-      ]
+        "Appreciates Sarah's calm demeanor under pressure",
+        "Recognizes Sarah's ability to manage emotions",
+        "Values professionalism in team members"
+      ],
+      "evidence_count": 4
+    },
+    "Ben Carter": {
+      "openness": 0.4,
+      "conscientiousness": 0.9,
+      "extraversion": 0.2,
+      "agreeableness": 0.7,
+      "neuroticism": 0.3,
+      "behaviors": [
+        "Privately sends files with bug reports (demonstrates attention to detail and a preference for indirect communication)",
+        "Coordinates with others on tasks (shows willingness to collaborate, albeit in a structured way)",
+        "Focuses on minor details, even after a major issue is addressed (highlights meticulousness)"
+      ],
+      "emotional_states": [
+        "Likely experiences discomfort in highly social or confrontational situations (due to introversion)",
+        "May feel a sense of responsibility to ensure thoroughness and accuracy (linked to conscientiousness)",
+        "Potentially avoids direct conflict, preferring a more measured approach (evident in private communication)"
+      ],
+      "evidence_count": 2
+    },
+    "Amina Al-Jamil": {
+      "openness": 0.7,
+      "conscientiousness": 0.8,
+      "extraversion": 0.6,
+      "agreeableness": 0.9,
+      "neuroticism": 0.5,
+      "behaviors": [
+        "Mentoring junior developers",
+        "Organizing community workshops",
+        "Collaborating with others on projects",
+        "Advocating for responsible AI development",
+        "Helping others manage anxiety"
+      ],
+      "emotional_states": [
+        "Concern for others' growth",
+        "Empathetic",
+        "Worry about work-life balance",
+        "Experiences anxiety"
+      ],
+      "evidence_count": 2
     }
   }
 }

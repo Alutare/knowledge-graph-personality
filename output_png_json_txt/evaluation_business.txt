@@ -2,92 +2,108 @@
 ========================================================================
                     KNOWLEDGE GRAPH EVALUATION REPORT
 ========================================================================
-Generated: 2025-10-22 21:25:31
+Generated: 2025-10-23 20:39:52
 
 1. GRAPH STATISTICS
 ------------------------------------------------------------------------
-Total Nodes:              13
-Total Edges:              46
-Person Entities:          6
+Total Nodes:              15
+Total Edges:              61
+Person Entities:          5
 Organization Entities:    4
-Location Entities:        0
-Graph Density:            0.295
-Average Degree:           7.08
+Location Entities:        1
+Graph Density:            0.290
+Average Degree:           8.13
 
 2. COMPLETENESS METRICS
 ------------------------------------------------------------------------
 Personality Coverage:     100.00%
-Entities Extracted:       13
-Relationships Extracted:  46
+Entities Extracted:       15
+Relationships Extracted:  61
+Avg Evidence/Person:      2.2
 Overall Score:            100.00%
 
 3. CONSISTENCY METRICS
 ------------------------------------------------------------------------
-Consistency Score:        100.00%
-Inconsistencies Found:    0
+Consistency Score:        93.33%
+Inconsistencies Found:    1
+
+Detected Inconsistencies:
+  • Alex Thompson: Low extraversion (0.20) without introverted behaviors
 
 4. GRAPH QUALITY METRICS
 ------------------------------------------------------------------------
-Connected Components:     1
-Connectivity Ratio:       100.00%
-Average Clustering:       0.680
-Graph Density:            0.500
+Connected Components:     6
+Connectivity Ratio:       66.67%
+Average Clustering:       0.593
+Graph Density:            0.343
+Avg Relationship Conf:    0.567
 
-5. PERSONALITY ANALYSIS
+5. RELATIONSHIP QUALITY
 ------------------------------------------------------------------------
+Total Relationships:      61
+Unique Relation Types:    6
+High Confidence (>0.8):   8.20%
+Low Confidence (<0.5):    0
+
+Relation Type Distribution:
+  • co_occurs           :  39
+  • affiliated_with     :  15
+  • collaborates_with   :   3
+  • reports_to          :   2
+  • manages             :   1
+  • works_for           :   1
+
+6. PERSONALITY ANALYSIS
+------------------------------------------------------------------------
+
+Alex Thompson:
+  Openness:          0.30
+  Conscientiousness: 0.80
+  Extraversion:      0.20
+  Agreeableness:     0.40
+  Neuroticism:       0.60
+  Evidence Count:    2
+  Behaviors:         Raising concerns about technical incompatibilities, Requesting and reviewing detailed reports (50-page report), Maintaining a skeptical stance on project timelines
+  Emotions:          Skepticism, Concern, Realism (potentially bordering on pessimism)
+
+Emily Vance:
+  Openness:          0.60
+  Conscientiousness: 0.70
+  Extraversion:      0.40
+  Agreeableness:     0.80
+  Neuroticism:       0.30
+  Evidence Count:    1
+  Behaviors:         Publicly supported Alex Thompson's concerns, demonstrating a willingness to challenge authority., Collaborated with Maria Santos to align developer environments (implied through association with Alex's team)., Prepared and submitted a 50-page report (suggests attention to detail and thoroughness).
+  Emotions:          Concern (regarding the risks outlined in the report), Confidence (in publicly backing Alex's concerns), Possibly, a sense of responsibility (as a board advisor)
 
 Jennifer Liu:
   Openness:          0.80
   Conscientiousness: 0.40
-  Extraversion:      0.90
-  Agreeableness:     0.40
-  Neuroticism:       0.20
-  Behaviors:         making bold decisions, exuding confidence, inspiring stakeholders
-  Emotions:          confidence, excitement, ambition
-
-Robert Kim:
-  Openness:          0.40
-  Conscientiousness: 0.95
-  Extraversion:      0.30
-  Agreeableness:     0.70
-  Neuroticism:       0.10
-  Behaviors:         analyzing financial projections, reviewing legal documents, demonstrating patience
-  Emotions:          focused, calm, methodical
-
-Robert:
-  Openness:          0.40
-  Conscientiousness: 0.95
-  Extraversion:      0.30
-  Agreeableness:     0.70
-  Neuroticism:       0.10
-  Behaviors:         meticulously reviews documents, conducts financial analysis, demonstrates patience
-  Emotions:          focused, calm, analytical
-
-Jennifer Liu's:
-  Openness:          0.80
-  Conscientiousness: 0.40
-  Extraversion:      0.90
-  Agreeableness:     0.50
-  Neuroticism:       0.40
-  Behaviors:         making bold decisions, exuding confidence, inspiring stakeholders
-  Emotions:          confidence, excitement, ambition
+  Extraversion:      0.70
+  Agreeableness:     0.30
+  Neuroticism:       0.50
+  Evidence Count:    3
+  Behaviors:         Making bold, risk-taking decisions, Inspiring stakeholders with ambitious vision, Occasionally dismissing dissenting opinions
+  Emotions:          Confidence (exuded during investor calls), Potential for frustration (evident in dismissing dissenting opinions), Possible defensiveness (regarding Alex Thompson's concerns)
 
 Maria Santos:
   Openness:          0.60
   Conscientiousness: 0.80
-  Extraversion:      0.60
+  Extraversion:      0.50
   Agreeableness:     0.90
-  Neuroticism:       0.20
-  Behaviors:         hosting open forums, encouraging transparent communication, active listening
-  Emotions:          compassionate, concerned, understanding
+  Neuroticism:       0.30
+  Evidence Count:    3
+  Behaviors:         Initiated and championed 'Project Fusion', Hosted open forums to address employee concerns, Encouraged transparent communication
+  Emotions:          Concern for employee well-being, Proactive in addressing anxiety, Empathetic towards team members' fears
 
-Alex:
-  Openness:          0.60
+Robert Kim:
+  Openness:          0.40
   Conscientiousness: 0.90
   Extraversion:      0.30
-  Agreeableness:     0.50
-  Neuroticism:       0.40
-  Behaviors:         analyzes, raises concerns, performs thorough assessments
-  Emotions:          concern, skepticism, realistic
+  Agreeableness:     0.70
+  Neuroticism:       0.20
+  Evidence Count:    2
+  Behaviors:         Led complex negotiations for a multi-billion dollar merger., Demonstrated exceptional patience and analytical thinking., Collaborated with Maria Santos to develop a retention bonus package.
+  Emotions:          Calmness (demonstrated through patience), Focused (on analytical thinking and deal completion), Possibly concerned about integration challenges (implied by collaboration with Maria Santos and awareness of Alex Thompson's concerns)
 
 ========================================================================

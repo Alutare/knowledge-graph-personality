@@ -1,224 +1,652 @@
 {
   "entities": [
     {
-      "name": "GlobalTech Industries",
+      "name": "Alex Thompson",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 12
+      },
+      "canonical_name": "Alex Thompson"
+    },
+    {
+      "name": "Jennifer Liu",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 4
+      },
+      "canonical_name": "Jennifer Liu"
+    },
+    {
+      "name": "Emily Vance",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 2
+      },
+      "canonical_name": "Emily Vance"
+    },
+    {
+      "name": "GlobalTech",
       "entity_type": "ORGANIZATION",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 12
+      },
+      "canonical_name": "GlobalTech"
     },
     {
       "name": "InnovateSoft",
       "entity_type": "ORGANIZATION",
       "properties": {
-        "mentions": 2
-      }
+        "mentions": 9
+      },
+      "canonical_name": "InnovateSoft"
     },
     {
       "name": "January 2024",
       "entity_type": "OTHER",
       "properties": {
         "mentions": 1
-      }
+      },
+      "canonical_name": "January 2024"
     },
     {
-      "name": "Jennifer Liu",
-      "entity_type": "PERSON",
+      "name": "$5 billion",
+      "entity_type": "OTHER",
       "properties": {
-        "mentions": 2
-      }
-    },
-    {
-      "name": "GlobalTech",
-      "entity_type": "ORGANIZATION",
-      "properties": {
-        "mentions": 3
-      }
+        "mentions": 1
+      },
+      "canonical_name": "$5 billion"
     },
     {
       "name": "Robert Kim",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 8
+      },
+      "canonical_name": "Robert Kim"
     },
     {
-      "name": "nearly \neight months",
+      "name": "nearly eight months",
       "entity_type": "OTHER",
       "properties": {
         "mentions": 1
-      }
+      },
+      "canonical_name": "nearly eight months"
     },
     {
-      "name": "Robert",
-      "entity_type": "PERSON",
+      "name": "Sullivan & Cromwell",
+      "entity_type": "ORGANIZATION",
       "properties": {
-        "mentions": 3
-      }
+        "mentions": 0
+      },
+      "canonical_name": "Sullivan & Cromwell"
     },
     {
-      "name": "Jennifer Liu's",
-      "entity_type": "PERSON",
+      "name": "Project Fusion",
+      "entity_type": "ORGANIZATION",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 2
+      },
+      "canonical_name": "Project Fusion"
     },
     {
       "name": "Maria Santos",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 9
+      },
+      "canonical_name": "Maria Santos"
     },
     {
-      "name": "CTO Alex Thompson",
-      "entity_type": "ORGANIZATION",
+      "name": "Berlin",
+      "entity_type": "LOCATION",
       "properties": {
         "mentions": 1
-      }
+      },
+      "canonical_name": "Berlin"
     },
     {
-      "name": "Alex",
-      "entity_type": "PERSON",
-      "properties": {
-        "mentions": 2
-      }
-    },
-    {
-      "name": "two",
+      "name": "50",
       "entity_type": "OTHER",
       "properties": {
         "mentions": 1
-      }
+      },
+      "canonical_name": "50"
+    },
+    {
+      "name": "CTO",
+      "entity_type": "OTHER",
+      "properties": {
+        "mentions": 1
+      },
+      "canonical_name": "CTO"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "source": "Maria Santos",
+      "target": "InnovateSoft",
+      "relation": "works_for",
+      "confidence": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "Robert Kim",
+      "relation": "manages",
+      "confidence": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "Sullivan & Cromwell",
+      "relation": "collaborates_with",
+      "confidence": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "Maria Santos",
+      "relation": "collaborates_with",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "Alex Thompson",
+      "relation": "reports_to",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "Jennifer Liu",
+      "relation": "reports_to",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Emily Vance",
+      "target": "Alex Thompson",
+      "relation": "collaborates_with",
+      "confidence": 0.8,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "GlobalTech",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "InnovateSoft",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "GlobalTech",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "Sullivan & Cromwell",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "Project Fusion",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "InnovateSoft",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Maria Santos",
+      "target": "InnovateSoft",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "GlobalTech",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "InnovateSoft",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "Project Fusion",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Emily Vance",
+      "target": "GlobalTech",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Emily Vance",
+      "target": "InnovateSoft",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Emily Vance",
+      "target": "Project Fusion",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Maria Santos",
+      "target": "GlobalTech",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Maria Santos",
+      "target": "Project Fusion",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "GlobalTech",
+      "target": "InnovateSoft",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "GlobalTech",
+      "target": "Jennifer Liu",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "InnovateSoft",
+      "target": "Jennifer Liu",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "GlobalTech",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "Robert Kim",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "GlobalTech",
+      "target": "Robert Kim",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "GlobalTech",
+      "target": "Sullivan & Cromwell",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "Sullivan & Cromwell",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Sullivan & Cromwell",
+      "target": "Jennifer Liu",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Project Fusion",
+      "target": "InnovateSoft",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "InnovateSoft",
+      "target": "Maria Santos",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "InnovateSoft",
+      "target": "Robert Kim",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Maria Santos",
+      "target": "Robert Kim",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "Maria Santos",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "Alex Thompson",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "GlobalTech",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Robert Kim",
+      "target": "Project Fusion",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Maria Santos",
+      "target": "Alex Thompson",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Maria Santos",
+      "target": "GlobalTech",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Maria Santos",
+      "target": "Project Fusion",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "GlobalTech",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "Project Fusion",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "GlobalTech",
+      "target": "Project Fusion",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "Berlin",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "GlobalTech",
+      "target": "Berlin",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Project Fusion",
+      "target": "Berlin",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Berlin",
+      "target": "Alex Thompson",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Berlin",
+      "target": "Jennifer Liu",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "Jennifer Liu",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Berlin",
+      "target": "Emily Vance",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Berlin",
+      "target": "InnovateSoft",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "Emily Vance",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "InnovateSoft",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "Emily Vance",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "InnovateSoft",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Emily Vance",
+      "target": "InnovateSoft",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Alex Thompson",
+      "target": "Maria Santos",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Jennifer Liu",
+      "target": "Maria Santos",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Emily Vance",
+      "target": "Maria Santos",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    }
+  ],
   "personalities": {
+    "Alex Thompson": {
+      "openness": 0.3,
+      "conscientiousness": 0.8,
+      "extraversion": 0.2,
+      "agreeableness": 0.4,
+      "neuroticism": 0.6,
+      "behaviors": [
+        "Raising concerns about technical incompatibilities",
+        "Requesting and reviewing detailed reports (50-page report)",
+        "Maintaining a skeptical stance on project timelines",
+        "Directly reporting to a superior, leading to tense meetings"
+      ],
+      "emotional_states": [
+        "Skepticism",
+        "Concern",
+        "Realism (potentially bordering on pessimism)",
+        "Potential for frustration (due to tense meetings and differing perspectives)"
+      ],
+      "evidence_count": 2
+    },
+    "Emily Vance": {
+      "openness": 0.6,
+      "conscientiousness": 0.7,
+      "extraversion": 0.4,
+      "agreeableness": 0.8,
+      "neuroticism": 0.3,
+      "behaviors": [
+        "Publicly supported Alex Thompson's concerns, demonstrating a willingness to challenge authority.",
+        "Collaborated with Maria Santos to align developer environments (implied through association with Alex's team).",
+        "Prepared and submitted a 50-page report (suggests attention to detail and thoroughness)."
+      ],
+      "emotional_states": [
+        "Concern (regarding the risks outlined in the report)",
+        "Confidence (in publicly backing Alex's concerns)",
+        "Possibly, a sense of responsibility (as a board advisor)"
+      ],
+      "evidence_count": 1
+    },
     "Jennifer Liu": {
       "openness": 0.8,
       "conscientiousness": 0.4,
-      "extraversion": 0.9,
-      "agreeableness": 0.4,
-      "neuroticism": 0.2,
+      "extraversion": 0.7,
+      "agreeableness": 0.3,
+      "neuroticism": 0.5,
       "behaviors": [
-        "making bold decisions",
-        "exuding confidence",
-        "inspiring stakeholders",
-        "dismissing dissenting opinions",
-        "taking risks"
+        "Making bold, risk-taking decisions",
+        "Inspiring stakeholders with ambitious vision",
+        "Occasionally dismissing dissenting opinions",
+        "Leading negotiations (though contrasting with Robert Kim's approach)",
+        "Dealing with tense executive meetings regarding Alex Thompson's concerns"
       ],
       "emotional_states": [
-        "confidence",
-        "excitement",
-        "ambition",
-        "impatience",
-        "optimism"
-      ]
+        "Confidence (exuded during investor calls)",
+        "Potential for frustration (evident in dismissing dissenting opinions)",
+        "Possible defensiveness (regarding Alex Thompson's concerns)"
+      ],
+      "evidence_count": 3
     },
     "Robert Kim": {
       "openness": 0.4,
-      "conscientiousness": 0.95,
+      "conscientiousness": 0.9,
       "extraversion": 0.3,
       "agreeableness": 0.7,
-      "neuroticism": 0.1,
+      "neuroticism": 0.2,
       "behaviors": [
-        "analyzing financial projections",
-        "reviewing legal documents",
-        "demonstrating patience",
-        "avoiding rushing to conclusions",
-        "leading complex negotiations"
+        "Led complex negotiations for a multi-billion dollar merger.",
+        "Demonstrated exceptional patience and analytical thinking.",
+        "Collaborated with Maria Santos to develop a retention bonus package.",
+        "Worked closely with legal counsel (Sullivan & Cromwell)."
       ],
       "emotional_states": [
-        "focused",
-        "calm",
-        "methodical",
-        "responsible",
-        "diligent"
-      ]
-    },
-    "Robert": {
-      "openness": 0.4,
-      "conscientiousness": 0.95,
-      "extraversion": 0.3,
-      "agreeableness": 0.7,
-      "neuroticism": 0.1,
-      "behaviors": [
-        "meticulously reviews documents",
-        "conducts financial analysis",
-        "demonstrates patience",
-        "avoids rushing to conclusions",
-        "leads negotiations"
+        "Calmness (demonstrated through patience)",
+        "Focused (on analytical thinking and deal completion)",
+        "Possibly concerned about integration challenges (implied by collaboration with Maria Santos and awareness of Alex Thompson's concerns)"
       ],
-      "emotional_states": [
-        "focused",
-        "calm",
-        "analytical",
-        "determined",
-        "reserved"
-      ]
-    },
-    "Jennifer Liu's": {
-      "openness": 0.8,
-      "conscientiousness": 0.4,
-      "extraversion": 0.9,
-      "agreeableness": 0.5,
-      "neuroticism": 0.4,
-      "behaviors": [
-        "making bold decisions",
-        "exuding confidence",
-        "inspiring stakeholders",
-        "taking risks",
-        "dismissing dissenting opinions"
-      ],
-      "emotional_states": [
-        "confidence",
-        "excitement",
-        "ambition",
-        "impulsiveness",
-        "frustration"
-      ]
+      "evidence_count": 2
     },
     "Maria Santos": {
       "openness": 0.6,
       "conscientiousness": 0.8,
-      "extraversion": 0.6,
+      "extraversion": 0.5,
       "agreeableness": 0.9,
-      "neuroticism": 0.2,
+      "neuroticism": 0.3,
       "behaviors": [
-        "hosting open forums",
-        "encouraging transparent communication",
-        "active listening",
-        "addressing employee concerns",
-        "facilitating discussions"
+        "Initiated and championed 'Project Fusion'",
+        "Hosted open forums to address employee concerns",
+        "Encouraged transparent communication",
+        "Collaborated with Robert Kim to develop a retention bonus package",
+        "Collaborated with Alex Thompson's team to align developer environments"
       ],
       "emotional_states": [
-        "compassionate",
-        "concerned",
-        "understanding",
-        "empathetic",
-        "calm"
-      ]
-    },
-    "Alex": {
-      "openness": 0.6,
-      "conscientiousness": 0.9,
-      "extraversion": 0.3,
-      "agreeableness": 0.5,
-      "neuroticism": 0.4,
-      "behaviors": [
-        "analyzes",
-        "raises concerns",
-        "performs thorough assessments",
-        "identifies technical incompatibilities",
-        "communicates pessimistic assessments"
+        "Concern for employee well-being",
+        "Proactive in addressing anxiety",
+        "Empathetic towards team members' fears"
       ],
-      "emotional_states": [
-        "concern",
-        "skepticism",
-        "realistic",
-        "caution",
-        "apprehension"
-      ]
+      "evidence_count": 3
     }
   }
 }

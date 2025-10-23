@@ -1,6 +1,6 @@
 # Knowledge Graph Construction with Personality Modeling
 
-This project implements a **Knowledge Graph (KG) construction pipeline** with a focus on personality modeling. It uses **Large Language Models (LLMs), specifically Google's Gemma 3 12B Model**, **NLP techniques with spaCy's English language processing pipeline**, and graph analysis to extract entities, relationships, and personality traits from text. The system generates structured knowledge representations and visualizations while evaluating graph quality, completeness, and consistency.
+This project implements a **Knowledge Graph (KG) construction pipeline** with a focus on personality modeling. It uses **Large Language Models (LLMs), specifically Google's Gemma 3 12B Model**, **Named Entity Recognition (NER) with spaCy**, and graph analysis to extract entities, relationships, and personality traits from text. The system automatically builds and visualizes structured knowledge graphs enriched with behavioral insights, while an evaluation suite measures graph completeness, consistency, and relationship quality
 
 ---
 
@@ -27,14 +27,13 @@ This project implements a **Knowledge Graph (KG) construction pipeline** with a 
 
 ## Features
 
-- Automatic extraction of **entities**: Person, Organization, Location, Event, Concept  
-- **Relationship extraction** using LLMs with support for:
-  - Explicit semantic relations (`affiliated_with`, `works_with`, etc.)  
-  - Co-occurrence based edges (`co_occurs`) to densify the graph  
-- **Personality profiling** (Big Five traits) for person entities, including behaviors and emotional states  
-- **Graph construction** and visualization using `networkx` and `matplotlib`  
-- Comprehensive **evaluation** for completeness, consistency, and structural graph quality  
-- Export of KG to JSON for further analysis  
+- **Entity & Relationship Extraction** - Automatically identifies people, organizations, locations, and events using **spaCy NER** and **Gemma 3 LLM-based relationship inference**. 
+
+- **Personality Modeling** - Infers detailed **Big Five personality traits (OCEAN)** from text, generating individualized personality profiles with behavioral and emotional evidence.
+
+- **Graph Construction & Visualization** - Builds a **NetworkX-based MultiDiGraph** with confidence-weighted edges and visualizes it using **Matplotlib**, color-coded by entity type.
+
+- **Comprehensive Evaluation Suite** - Evaluates **graph completeness, consistency, relationship quality, and structural metrics** for analytical transparency and reliability.
 
 ---
 
@@ -122,7 +121,7 @@ Generates three types of documents for testing:
 - Lists **behaviors** and **emotional states**  
 - Uses LLM prompts for contextual understanding  
 
-Below is the report generated from the narrative document:
+Below is the report generated from the sample texts:
 
 ![Report Evaluation](output_png_json_txt/evaluation_business.txt)
 
@@ -142,6 +141,7 @@ Below is the report generated from the narrative document:
 Below are the knowledge graphs generated from the narratives:
 
 ![Narrative Knowledge Graph](output_png_json_txt/kg_business.png)
+![Narrative Knowledge Graph](output_png_json_txt/kg_narrative.png)
 ![Narrative Knowledge Graph](output_png_json_txt/kg_social.png)
 
 ### 7. Evaluation Metrics

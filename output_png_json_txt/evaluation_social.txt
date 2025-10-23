@@ -2,101 +2,109 @@
 ========================================================================
                     KNOWLEDGE GRAPH EVALUATION REPORT
 ========================================================================
-Generated: 2025-10-22 21:26:57
+Generated: 2025-10-23 20:40:50
 
 1. GRAPH STATISTICS
 ------------------------------------------------------------------------
-Total Nodes:              13
-Total Edges:              33
-Person Entities:          7
+Total Nodes:              10
+Total Edges:              36
+Person Entities:          5
 Organization Entities:    3
 Location Entities:        1
-Graph Density:            0.212
-Average Degree:           5.08
+Graph Density:            0.400
+Average Degree:           7.20
 
 2. COMPLETENESS METRICS
 ------------------------------------------------------------------------
 Personality Coverage:     100.00%
-Entities Extracted:       13
-Relationships Extracted:  33
+Entities Extracted:       10
+Relationships Extracted:  36
+Avg Evidence/Person:      1.8
 Overall Score:            100.00%
 
 3. CONSISTENCY METRICS
 ------------------------------------------------------------------------
-Consistency Score:        85.71%
+Consistency Score:        93.33%
 Inconsistencies Found:    1
+
+Detected Inconsistencies:
+  • Carlos Rodriguez: High extraversion (0.80) without social behaviors
 
 4. GRAPH QUALITY METRICS
 ------------------------------------------------------------------------
 Connected Components:     2
-Connectivity Ratio:       84.62%
-Average Clustering:       0.345
-Graph Density:            0.359
+Connectivity Ratio:       90.00%
+Average Clustering:       0.579
+Graph Density:            0.422
+Avg Relationship Conf:    0.608
 
-5. PERSONALITY ANALYSIS
+5. RELATIONSHIP QUALITY
 ------------------------------------------------------------------------
+Total Relationships:      36
+Unique Relation Types:    7
+High Confidence (>0.8):   22.22%
+Low Confidence (<0.5):    0
 
-Emma Watson:
-  Openness:          0.60
-  Conscientiousness: 0.70
-  Extraversion:      0.90
-  Agreeableness:     0.80
-  Neuroticism:       0.20
-  Behaviors:         greeting guests warmly, demonstrating enthusiasm, diplomatic conflict resolution
-  Emotions:          enthusiasm, warmth, welcome
+Relation Type Distribution:
+  • co_occurs           :  21
+  • affiliated_with     :   7
+  • collaborates_with   :   4
+  • founded             :   1
+  • works_for           :   1
+  • invested_in         :   1
+  • member_of           :   1
 
-Michael Chen:
-  Openness:          0.40
-  Conscientiousness: 0.80
-  Extraversion:      0.20
-  Agreeableness:     0.70
-  Neuroticism:       0.10
-  Behaviors:         listening intently, engaging in quiet conversations, carefully considering perspectives
-  Emotions:          thoughtful, calm, reflective
-
-Patricia Johnson:
-  Openness:          0.80
-  Conscientiousness: 0.50
-  Extraversion:      0.40
-  Agreeableness:     0.70
-  Neuroticism:       0.90
-  Behaviors:         delivering emotionally powerful speeches, discussing personal struggles openly, founding an institute
-  Emotions:          anxiety, empathy, passion
-
-Patricia:
-  Openness:          0.80
-  Conscientiousness: 0.40
-  Extraversion:      0.30
-  Agreeableness:     0.70
-  Neuroticism:       0.70
-  Behaviors:         delivering emotionally powerful speeches, discussing personal struggles openly, founding an institute
-  Emotions:          passion, vulnerability, anxiety
+6. PERSONALITY ANALYSIS
+------------------------------------------------------------------------
 
 Carlos Rodriguez:
   Openness:          0.40
-  Conscientiousness: 0.30
-  Extraversion:      0.70
-  Agreeableness:     0.20
+  Conscientiousness: 0.70
+  Extraversion:      0.80
+  Agreeableness:     0.30
   Neuroticism:       0.60
-  Behaviors:         aggressively outbids, interrupts, prioritizes winning
-  Emotions:          competitiveness, frustration, irritation
+  Evidence Count:    2
+  Behaviors:         Aggressively outbidding others at an auction, Displaying abrasive behavior that negatively impacted others, Initially resistant to feedback and apology
+  Emotions:          Competitiveness, Potential frustration or defensiveness (leading to initial resistance), Possible regret or awareness of social impact (leading to apology)
 
-Carlos:
-  Openness:          0.40
-  Conscientiousness: 0.30
+Emma Watson:
+  Openness:          0.80
+  Conscientiousness: 0.90
   Extraversion:      0.70
-  Agreeableness:     0.20
-  Neuroticism:       0.60
-  Behaviors:         aggressively outbidding, prioritizing winning, resistant to feedback
-  Emotions:          competitive, frustration, defensiveness
+  Agreeableness:     0.90
+  Neuroticism:       0.30
+  Evidence Count:    3
+  Behaviors:         Greeting guests with genuine warmth and enthusiasm, Co-hosting a panel discussion on 'Empathy in Advocacy', Actively engaging in discussions and projects with diverse partners
+  Emotions:          Warmth, Enthusiasm, Genuine connection with others
 
 Lisa Park's:
   Openness:          0.90
   Conscientiousness: 0.30
   Extraversion:      0.60
+  Agreeableness:     0.50
+  Neuroticism:       0.20
+  Evidence Count:    1
+  Behaviors:         Spontaneous saxophone solo performance, Lives by intuition rather than rigid plans, Creative and free-spirited nature
+  Emotions:          Confidence (evident in her performance), Possibly a relaxed and comfortable demeanor, Appears to enjoy novelty and improvisation
+
+Michael Chen:
+  Openness:          0.60
+  Conscientiousness: 0.50
+  Extraversion:      0.30
   Agreeableness:     0.70
   Neuroticism:       0.20
-  Behaviors:         improvises music, acts on intuition, embraces spontaneity
-  Emotions:          joyful, relaxed, creative
+  Evidence Count:    2
+  Behaviors:         Spent most of the evening in quiet conversations with small groups, Listened more than he spoke, carefully considering each person's perspective, Personally asked Lisa Park to perform, demonstrating an appreciation for creativity
+  Emotions:          Thoughtful, Considerate, Appreciative (of Lisa Park's creativity)
+
+Patricia Johnson:
+  Openness:          0.70
+  Conscientiousness: 0.60
+  Extraversion:      0.30
+  Agreeableness:     0.80
+  Neuroticism:       0.70
+  Evidence Count:    1
+  Behaviors:         Engages in deep, analytical thinking, Participates in quiet, extended discussions, Delivers emotionally powerful speeches
+  Emotions:          Experiences anxiety (and openly discusses it), Demonstrates empathy and compassion (through advocacy), Feels passionate about mental health advocacy
 
 ========================================================================

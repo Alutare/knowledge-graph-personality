@@ -1,245 +1,434 @@
 {
   "entities": [
     {
+      "name": "Patricia Johnson",
+      "entity_type": "PERSON",
+      "properties": {
+        "mentions": 5
+      },
+      "canonical_name": "Patricia Johnson"
+    },
+    {
       "name": "annual",
       "entity_type": "OTHER",
       "properties": {
         "mentions": 1
-      }
+      },
+      "canonical_name": "annual"
     },
     {
       "name": "New York City",
       "entity_type": "LOCATION",
       "properties": {
         "mentions": 1
-      }
+      },
+      "canonical_name": "New York City"
+    },
+    {
+      "name": "Oceanic Preservation Trust",
+      "entity_type": "ORGANIZATION",
+      "properties": {
+        "mentions": 0
+      },
+      "canonical_name": "Oceanic Preservation Trust"
     },
     {
       "name": "Emma Watson",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 10
+      },
+      "canonical_name": "Emma Watson"
     },
     {
-      "name": "the Hope \nFoundation",
+      "name": "Hope Foundation",
       "entity_type": "ORGANIZATION",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 0
+      },
+      "canonical_name": "Hope Foundation"
     },
     {
       "name": "Michael Chen",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 5
+      },
+      "canonical_name": "Michael Chen"
     },
     {
-      "name": "evening",
-      "entity_type": "OTHER",
-      "properties": {
-        "mentions": 2
-      }
-    },
-    {
-      "name": "Patricia Johnson",
-      "entity_type": "PERSON",
-      "properties": {
-        "mentions": 1
-      }
-    },
-    {
-      "name": "Patricia",
-      "entity_type": "PERSON",
-      "properties": {
-        "mentions": 2
-      }
-    },
-    {
-      "name": "the Mindful Living Institute",
+      "name": "Mindful Living Institute",
       "entity_type": "ORGANIZATION",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 0
+      },
+      "canonical_name": "Mindful Living Institute"
     },
     {
       "name": "Carlos Rodriguez",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
-    },
-    {
-      "name": "Emma",
-      "entity_type": "ORGANIZATION",
-      "properties": {
-        "mentions": 2
-      }
-    },
-    {
-      "name": "Carlos",
-      "entity_type": "PERSON",
-      "properties": {
-        "mentions": 2
-      }
+        "mentions": 5
+      },
+      "canonical_name": "Carlos Rodriguez"
     },
     {
       "name": "Lisa Park's",
       "entity_type": "PERSON",
       "properties": {
-        "mentions": 1
-      }
+        "mentions": 2
+      },
+      "canonical_name": "Lisa Park's"
     }
   ],
-  "relationships": [],
+  "relationships": [
+    {
+      "source": "Emma Watson",
+      "target": "Hope Foundation",
+      "relation": "works_for",
+      "confidence": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "Hope Foundation",
+      "target": "Oceanic Preservation Trust",
+      "relation": "collaborates_with",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Michael Chen",
+      "target": "Oceanic Preservation Trust",
+      "relation": "member_of",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Patricia Johnson",
+      "target": "Mindful Living Institute",
+      "relation": "founded",
+      "confidence": 0.95,
+      "properties": {}
+    },
+    {
+      "source": "Hope Foundation",
+      "target": "Mindful Living Institute",
+      "relation": "invested_in",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Patricia Johnson",
+      "relation": "collaborates_with",
+      "confidence": 0.9,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Carlos Rodriguez",
+      "relation": "collaborates_with",
+      "confidence": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "Michael Chen",
+      "target": "Lisa Park's",
+      "relation": "collaborates_with",
+      "confidence": 0.85,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Oceanic Preservation Trust",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Hope Foundation",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Michael Chen",
+      "target": "Oceanic Preservation Trust",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Patricia Johnson",
+      "target": "Hope Foundation",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Patricia Johnson",
+      "target": "Mindful Living Institute",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Mindful Living Institute",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "Carlos Rodriguez",
+      "target": "Mindful Living Institute",
+      "relation": "affiliated_with",
+      "confidence": 0.6,
+      "properties": {}
+    },
+    {
+      "source": "New York City",
+      "target": "Oceanic Preservation Trust",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "New York City",
+      "target": "Hope Foundation",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Oceanic Preservation Trust",
+      "target": "Hope Foundation",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "New York City",
+      "target": "Emma Watson",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Oceanic Preservation Trust",
+      "target": "Emma Watson",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Hope Foundation",
+      "target": "Emma Watson",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Hope Foundation",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Oceanic Preservation Trust",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Michael Chen",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Hope Foundation",
+      "target": "Oceanic Preservation Trust",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Hope Foundation",
+      "target": "Michael Chen",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Oceanic Preservation Trust",
+      "target": "Michael Chen",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Patricia Johnson",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Hope Foundation",
+      "target": "Mindful Living Institute",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Mindful Living Institute",
+      "target": "Emma Watson",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Hope Foundation",
+      "target": "Carlos Rodriguez",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Mindful Living Institute",
+      "target": "Carlos Rodriguez",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Emma Watson",
+      "target": "Carlos Rodriguez",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Carlos Rodriguez",
+      "target": "Mindful Living Institute",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Mindful Living Institute",
+      "target": "Lisa Park's",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    },
+    {
+      "source": "Lisa Park's",
+      "target": "Michael Chen",
+      "relation": "co_occurs",
+      "confidence": 0.5,
+      "properties": {}
+    }
+  ],
   "personalities": {
-    "Emma Watson": {
-      "openness": 0.6,
-      "conscientiousness": 0.7,
-      "extraversion": 0.9,
-      "agreeableness": 0.8,
-      "neuroticism": 0.2,
-      "behaviors": [
-        "greeting guests warmly",
-        "demonstrating enthusiasm",
-        "diplomatic conflict resolution",
-        "creating a welcoming atmosphere",
-        "actively engaging with others"
-      ],
-      "emotional_states": [
-        "enthusiasm",
-        "warmth",
-        "welcome",
-        "concern",
-        "diplomacy"
-      ]
-    },
-    "Michael Chen": {
-      "openness": 0.4,
-      "conscientiousness": 0.8,
-      "extraversion": 0.2,
-      "agreeableness": 0.7,
-      "neuroticism": 0.1,
-      "behaviors": [
-        "listening intently",
-        "engaging in quiet conversations",
-        "carefully considering perspectives",
-        "offering thoughtful insights",
-        "respecting others' opinions"
-      ],
-      "emotional_states": [
-        "thoughtful",
-        "calm",
-        "reflective",
-        "measured",
-        "understanding"
-      ]
-    },
     "Patricia Johnson": {
-      "openness": 0.8,
-      "conscientiousness": 0.5,
-      "extraversion": 0.4,
-      "agreeableness": 0.7,
-      "neuroticism": 0.9,
-      "behaviors": [
-        "delivering emotionally powerful speeches",
-        "discussing personal struggles openly",
-        "founding an institute",
-        "advocating for mental health",
-        "considering others' perspectives"
-      ],
-      "emotional_states": [
-        "anxiety",
-        "empathy",
-        "passion",
-        "vulnerability",
-        "concern"
-      ]
-    },
-    "Patricia": {
-      "openness": 0.8,
-      "conscientiousness": 0.4,
+      "openness": 0.7,
+      "conscientiousness": 0.6,
       "extraversion": 0.3,
-      "agreeableness": 0.7,
+      "agreeableness": 0.8,
       "neuroticism": 0.7,
       "behaviors": [
-        "delivering emotionally powerful speeches",
-        "discussing personal struggles openly",
-        "founding an institute",
-        "advocating for mental health",
-        "offering insights after careful consideration"
+        "Engages in deep, analytical thinking",
+        "Participates in quiet, extended discussions",
+        "Delivers emotionally powerful speeches",
+        "Founded an institute (Mindful Living Institute)",
+        "Actively advocates for mental health"
       ],
       "emotional_states": [
-        "passion",
-        "vulnerability",
-        "anxiety",
-        "empathy",
-        "inspiration"
-      ]
+        "Experiences anxiety (and openly discusses it)",
+        "Demonstrates empathy and compassion (through advocacy)",
+        "Feels passionate about mental health advocacy"
+      ],
+      "evidence_count": 1
+    },
+    "Michael Chen": {
+      "openness": 0.6,
+      "conscientiousness": 0.5,
+      "extraversion": 0.3,
+      "agreeableness": 0.7,
+      "neuroticism": 0.2,
+      "behaviors": [
+        "Spent most of the evening in quiet conversations with small groups",
+        "Listened more than he spoke, carefully considering each person's perspective",
+        "Personally asked Lisa Park to perform, demonstrating an appreciation for creativity",
+        "Engaged in a long, quiet discussion with Emma Watson about a future project"
+      ],
+      "emotional_states": [
+        "Thoughtful",
+        "Considerate",
+        "Appreciative (of Lisa Park's creativity)"
+      ],
+      "evidence_count": 2
+    },
+    "Emma Watson": {
+      "openness": 0.8,
+      "conscientiousness": 0.9,
+      "extraversion": 0.7,
+      "agreeableness": 0.9,
+      "neuroticism": 0.3,
+      "behaviors": [
+        "Greeting guests with genuine warmth and enthusiasm",
+        "Co-hosting a panel discussion on 'Empathy in Advocacy'",
+        "Actively engaging in discussions and projects with diverse partners"
+      ],
+      "emotional_states": [
+        "Warmth",
+        "Enthusiasm",
+        "Genuine connection with others"
+      ],
+      "evidence_count": 3
     },
     "Carlos Rodriguez": {
       "openness": 0.4,
-      "conscientiousness": 0.3,
-      "extraversion": 0.7,
-      "agreeableness": 0.2,
+      "conscientiousness": 0.7,
+      "extraversion": 0.8,
+      "agreeableness": 0.3,
       "neuroticism": 0.6,
       "behaviors": [
-        "aggressively outbids",
-        "interrupts",
-        "prioritizes winning",
-        "is resistant to feedback",
-        "makes abrupt apologies"
+        "Aggressively outbidding others at an auction",
+        "Displaying abrasive behavior that negatively impacted others",
+        "Initially resistant to feedback and apology",
+        "Eventually apologizing and making a generous donation"
       ],
       "emotional_states": [
-        "competitiveness",
-        "frustration",
-        "irritation",
-        "guilt",
-        "pride"
-      ]
-    },
-    "Carlos": {
-      "openness": 0.4,
-      "conscientiousness": 0.3,
-      "extraversion": 0.7,
-      "agreeableness": 0.2,
-      "neuroticism": 0.6,
-      "behaviors": [
-        "aggressively outbidding",
-        "prioritizing winning",
-        "resistant to feedback",
-        "apologizing",
-        "making generous donations"
+        "Competitiveness",
+        "Potential frustration or defensiveness (leading to initial resistance)",
+        "Possible regret or awareness of social impact (leading to apology)"
       ],
-      "emotional_states": [
-        "competitive",
-        "frustration",
-        "defensiveness",
-        "shame",
-        "remorse"
-      ]
+      "evidence_count": 2
     },
     "Lisa Park's": {
       "openness": 0.9,
       "conscientiousness": 0.3,
       "extraversion": 0.6,
-      "agreeableness": 0.7,
+      "agreeableness": 0.5,
       "neuroticism": 0.2,
       "behaviors": [
-        "improvises music",
-        "acts on intuition",
-        "embraces spontaneity",
-        "creates art",
-        "expresses self through music"
+        "Spontaneous saxophone solo performance",
+        "Lives by intuition rather than rigid plans",
+        "Creative and free-spirited nature"
       ],
       "emotional_states": [
-        "joyful",
-        "relaxed",
-        "creative",
-        "free",
-        "connected"
-      ]
+        "Confidence (evident in her performance)",
+        "Possibly a relaxed and comfortable demeanor",
+        "Appears to enjoy novelty and improvisation"
+      ],
+      "evidence_count": 1
     }
   }
 }
